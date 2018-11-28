@@ -1,14 +1,64 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+header {
+  position: relative;
+  padding-bottom: 22px;
+}
+.AppBar {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+}
+.AppBar > .Title {
+  margin: 5px;
+  margin-left: 40px;
+  font-size: large;
+}
+.buttonSearch {
+  float: right;
+  font-size: 30px;
+  margin-right: 30px; 
+}
+header > .buttonAdd {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+  font-size: 44px;
+}
+header > .buttonAdd > .background{
+  display: flex;
+  color:#FF5722;
+}
+header > .buttonAdd > .symbol{
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  color: white;
+}
+
+.Aluno {
+  top: 20px;
+  margin-left: 30px;
+  margin-bottom: 4px;
+}
+/* para indicar que é classe colocar  '.' antes */
+.Aluno > .Nome {
+ font-weight: bold;
+}
+.Aluno > .Dados {
+  font-size: ;
+  color: grey;
+  font-weight: bold;
 }
